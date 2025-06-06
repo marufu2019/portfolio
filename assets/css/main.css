@@ -63,7 +63,21 @@ body {
 	 nav .icons li a{
 		color: blue;
 	}
+
+	   .icon{
+		display: flex;
+		flex-direction: column;
+	}
+
 /* } */
+ /* @media (max-width: 980px) {
+	.icons li a{
+		display: flex;
+		flex-direction: column;
+	}
+ } */
+
+
 
 mark {
 	background-color: transparent;
@@ -160,8 +174,9 @@ input, select, textarea {
 			.image-main{
 				height: 100%;
 			}
-            .icons .icon{
+            .icons .icon li a{
 				display: flex;
+				flex-direction: column;
 			}
 		}
 
@@ -2396,6 +2411,12 @@ input, select, textarea {
 		.button:hover {
 			box-shadow: inset 0 0 0 2px #18bfef;
 			color: #18bfef !important;
+		}
+		.button{
+			border-radius: 5px;
+		}
+		.actions{
+			border-radius: 5px;
 		}
 
 		input[type="submit"].primary,
