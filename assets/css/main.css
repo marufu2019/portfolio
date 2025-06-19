@@ -195,14 +195,37 @@ body {
 
 @media (max-width:450px) {
     .cards .card{
-        height: 300px;
+        height: 350px;
         width: 280px;
-        margin: 20px 0;
-        margin-right: -35px;
+        margin: 10px 0;
+        margin-right: -15px;
+		/* overflow-y: auto; */
     }
     #service-section #para{
         width: 70%;
     }
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #service-section h1{
+		color: #222020;
+		font-size: 2.05rem;
+		position: relative;
+	}
+	.cards .card .content p{
+		color: #fff;
+		font-size: 10px;
+		margin-bottom: 20px;
+		font-weight: 500;
+	}
+	.header-1{
+		font-size: 30px;
+	}
+	.cards .card h3{
+		font-size: 1.5rem;
+		color: white;
+		margin-bottom: 10px;
+	}
 }
 
 
